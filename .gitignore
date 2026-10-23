@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Local duplicate asset folders and scratch files
+public/Graphics design/
+public/skills/
+temp.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

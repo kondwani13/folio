@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="ACCESS CONTROL service">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071a1e"/>
+      <stop offset="100%" stop-color="#0d4a55"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.12" r="0.9">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#22d3ee" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <rect width="1200" height="750" fill="url(#glow)"/>
+
+  <rect x="70" y="70" width="1060" height="610" rx="24" fill="#0c0f14" fill-opacity="0.72" stroke="#ffffff" stroke-opacity="0.10" stroke-width="2"/>
+  <rect x="70" y="70" width="1060" height="8" rx="4" fill="#22d3ee" fill-opacity="0.75"/>
+
+  <text x="120" y="176" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#22d3ee" letter-spacing="3">SERVICE</text>
+  <text x="120" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" fill="#f6f7fb" letter-spacing="-1">ACCESS CONTROL</text>
+  <rect x="120" y="392" width="96" height="6" rx="3" fill="#22d3ee"/>
+  <text x="120" y="452" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#b4b9c8">Kondwani Tech</text>
+
+  <rect x="120" y="560" width="150" height="46" rx="23" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.45"/>
+  <text x="195" y="590" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#22d3ee" text-anchor="middle">REQUEST</text>
+
+  
+    <rect x="760" y="196" width="180" height="300" rx="16" fill="#12161c" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="2"/>
+    <rect x="792" y="228" width="116" height="86" rx="12" fill="#0b0f14" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <g fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round">
+      <path d="M816 288c0-14 11-25 25-25s25 11 25 25"/>
+      <path d="M822 288c0-11 8-19 19-19s19 8 19 19"/>
+      <path d="M828 288c0-7 5-13 13-13s13 6 13 13"/>
+      <path d="M834 288c0-4 3-7 7-7s7 3 7 7"/>
+    </g>
+    <circle cx="850" cy="340" r="10" fill="#22d3ee"/>
+    <rect x="844" y="348" width="12" height="40" rx="6" fill="#22d3ee" fill-opacity="0.7"/>
+    <rect x="802" y="420" width="96" height="12" rx="6" fill="#ffffff" fill-opacity="0.2"/>
+    <path d="M710 260l-30 30v90l30 30" fill="none" stroke="#22d3ee" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="700" cy="325" r="12" fill="#22d3ee"/>
+</svg>

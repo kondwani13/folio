@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="FLYERS service">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#210b11"/>
+      <stop offset="100%" stop-color="#641e2c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.12" r="0.9">
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#fb7185" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#fb7185" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <rect width="1200" height="750" fill="url(#glow)"/>
+
+  <rect x="70" y="70" width="1060" height="610" rx="24" fill="#0c0f14" fill-opacity="0.72" stroke="#ffffff" stroke-opacity="0.10" stroke-width="2"/>
+  <rect x="70" y="70" width="1060" height="8" rx="4" fill="#fb7185" fill-opacity="0.75"/>
+
+  <text x="120" y="176" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#fb7185" letter-spacing="3">SERVICE</text>
+  <text x="120" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="88" font-weight="700" fill="#f6f7fb" letter-spacing="-1">FLYERS</text>
+  <rect x="120" y="392" width="96" height="6" rx="3" fill="#fb7185"/>
+  <text x="120" y="452" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#b4b9c8">Kondwani Tech</text>
+
+  <rect x="120" y="560" width="150" height="46" rx="23" fill="#fb7185" fill-opacity="0.14" stroke="#fb7185" stroke-opacity="0.45"/>
+  <text x="195" y="590" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#fb7185" text-anchor="middle">REQUEST</text>
+
+  
+    <rect x="664" y="196" width="240" height="320" rx="12" fill="#12161c" stroke="#fb7185" stroke-opacity="0.55" stroke-width="2" transform="rotate(-8 784 356)"/>
+    <rect x="684" y="216" width="200" height="96" rx="8" fill="#fb7185" fill-opacity="0.28" transform="rotate(-8 784 356)"/>
+    <rect x="684" y="330" width="180" height="12" rx="6" fill="#ffffff" fill-opacity="0.2" transform="rotate(-8 784 356)"/>
+    <rect x="684" y="356" width="140" height="12" rx="6" fill="#ffffff" fill-opacity="0.12" transform="rotate(-8 784 356)"/>
+    <rect x="764" y="184" width="240" height="320" rx="12" fill="#0f1318" stroke="#fb7185" stroke-opacity="0.85" stroke-width="2" transform="rotate(6 884 344)"/>
+    <rect x="786" y="206" width="196" height="104" rx="8" fill="#fb7185" fill-opacity="0.22" transform="rotate(6 884 344)"/>
+    <text x="884" y="278" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#fb7185" text-anchor="middle" transform="rotate(6 884 344)">FLYER</text>
+    <rect x="786" y="334" width="180" height="12" rx="6" fill="#ffffff" fill-opacity="0.22" transform="rotate(6 884 344)"/>
+    <rect x="786" y="360" width="140" height="12" rx="6" fill="#ffffff" fill-opacity="0.14" transform="rotate(6 884 344)"/>
+</svg>

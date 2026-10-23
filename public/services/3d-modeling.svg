@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="3D MODELING service">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c0d18"/>
+      <stop offset="100%" stop-color="#5c1f45"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.12" r="0.9">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#f472b6" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <rect width="1200" height="750" fill="url(#glow)"/>
+
+  <rect x="70" y="70" width="1060" height="610" rx="24" fill="#0c0f14" fill-opacity="0.72" stroke="#ffffff" stroke-opacity="0.10" stroke-width="2"/>
+  <rect x="70" y="70" width="1060" height="8" rx="4" fill="#f472b6" fill-opacity="0.75"/>
+
+  <text x="120" y="176" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#f472b6" letter-spacing="3">SERVICE</text>
+  <text x="120" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="#f6f7fb" letter-spacing="-1">3D MODELING</text>
+  <rect x="120" y="392" width="96" height="6" rx="3" fill="#f472b6"/>
+  <text x="120" y="452" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#b4b9c8">Kondwani Tech</text>
+
+  <rect x="120" y="560" width="150" height="46" rx="23" fill="#f472b6" fill-opacity="0.14" stroke="#f472b6" stroke-opacity="0.45"/>
+  <text x="195" y="590" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f472b6" text-anchor="middle">REQUEST</text>
+
+  
+    <g fill="none" stroke="#f472b6" stroke-width="3" stroke-linejoin="round" stroke-opacity="0.9">
+      <path d="M830 210l150 86v172l-150 86-150-86V296z"/>
+      <path d="M680 296l150 86 150-86"/>
+      <path d="M830 382v172"/>
+    </g>
+    <g fill="none" stroke="#f472b6" stroke-width="2" stroke-opacity="0.35">
+      <path d="M830 210l-75 43 75 43 75-43z" fill="#f472b6" fill-opacity="0.12"/>
+      <path d="M680 296v86l75 43v-86z" fill="#f472b6" fill-opacity="0.08"/>
+      <path d="M980 296v86l-75 43v-86z" fill="#f472b6" fill-opacity="0.16"/>
+    </g>
+    <text x="830" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#f472b6" text-anchor="middle">3D</text>
+</svg>

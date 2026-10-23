@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="MODEL 03 3D model">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c0d18"/>
+      <stop offset="100%" stop-color="#5c1f45"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#f472b6" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <rect width="1200" height="750" fill="url(#glow)"/>
+  <g fill="none" stroke="#f472b6" stroke-width="4" stroke-linejoin="round" stroke-opacity="0.9">
+    <path d="M600 220l160 92v184l-160 92-160-92V312z"/>
+    <path d="M440 312l160 92 160-92"/>
+    <path d="M600 404v184"/>
+  </g>
+  <g fill="#f472b6" fill-opacity="0.10" stroke="#f472b6" stroke-opacity="0.35" stroke-width="2">
+    <path d="M600 220l-80 46 80 46 80-46z"/>
+    <path d="M440 312v92l80 46v-92z"/>
+    <path d="M760 312v92l-80 46v-92z"/>
+  </g>
+  <text x="600" y="620" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" fill="#f472b6" text-anchor="middle" letter-spacing="6">MODEL 03</text>
+  <text x="600" y="668" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#8a90a0" text-anchor="middle" letter-spacing="4">INTERACTIVE 3D</text>
+</svg>

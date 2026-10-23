@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="SEO service">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071a0f"/>
+      <stop offset="100%" stop-color="#0f4b27"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.12" r="0.9">
+      <stop offset="0%" stop-color="#4ade80" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#4ade80" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#4ade80" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <rect width="1200" height="750" fill="url(#glow)"/>
+
+  <rect x="70" y="70" width="1060" height="610" rx="24" fill="#0c0f14" fill-opacity="0.72" stroke="#ffffff" stroke-opacity="0.10" stroke-width="2"/>
+  <rect x="70" y="70" width="1060" height="8" rx="4" fill="#4ade80" fill-opacity="0.75"/>
+
+  <text x="120" y="176" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#4ade80" letter-spacing="3">SERVICE</text>
+  <text x="120" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="88" font-weight="700" fill="#f6f7fb" letter-spacing="-1">SEO</text>
+  <rect x="120" y="392" width="96" height="6" rx="3" fill="#4ade80"/>
+  <text x="120" y="452" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#b4b9c8">Kondwani Tech</text>
+
+  <rect x="120" y="560" width="150" height="46" rx="23" fill="#4ade80" fill-opacity="0.14" stroke="#4ade80" stroke-opacity="0.45"/>
+  <text x="195" y="590" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#4ade80" text-anchor="middle">REQUEST</text>
+
+  
+    <circle cx="864" cy="292" r="96" fill="none" stroke="#4ade80" stroke-width="10" stroke-opacity="0.85"/>
+    <path d="M932 360l72 72" stroke="#4ade80" stroke-width="16" stroke-linecap="round"/>
+    <path d="M792 320l34-38 38 20 44-62" fill="none" stroke="#4ade80" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M792 320l34-38 38 20 44-62v128H792z" fill="#4ade80" fill-opacity="0.12"/>
+    <circle cx="826" cy="282" r="8" fill="#4ade80"/>
+    <circle cx="864" cy="302" r="8" fill="#4ade80"/>
+    <circle cx="908" cy="240" r="8" fill="#4ade80"/>
+    <rect x="676" y="236" width="120" height="12" rx="6" fill="#4ade80" fill-opacity="0.5"/>
+    <rect x="676" y="262" width="84" height="10" rx="5" fill="#ffffff" fill-opacity="0.16"/>
+</svg>
